@@ -8,3 +8,5 @@ A hierarquia criada foi:
 - Catálogo (projeto_lakeflow): O ambiente principal e isolado de armazenamento do projeto.
 - Schema (bronze): O banco de dados para a primeira camada da Arquitetura Medallion, onde os dados brutos são armazenados.
 - Volume (dados_brutos): O local seguro e gerenciado para armazenar os arquivos originais não-tabulares (como CSVs ou JSONs) antes de qualquer processamento com o Apache Spark.
+
+Em construção...
