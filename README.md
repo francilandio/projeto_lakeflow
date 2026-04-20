@@ -1,0 +1,10 @@
+## Projeto Lakeflow - Engenharia de Dados com Databricks
+
+### Etapa 1: Fundamentos e Governança (Unity Catalog)
+
+Nesta etapa, foi estruturado a base de segurança do projeto utilizando o Unity Catalog. A governança de dados garante controle de acesso rigoroso e organização desde o primeiro momento.
+
+A hierarquia criada foi:
+- Catálogo (projeto_lakeflow): O ambiente principal e isolado de armazenamento do projeto.
+- Schema (bronze): O banco de dados para a primeira camada da Arquitetura Medallion, onde os dados brutos são armazenados.
+- Volume (dados_brutos): O local seguro e gerenciado para armazenar os arquivos originais não-tabulares (como CSVs ou JSONs) antes de qualquer processamento com o Apache Spark.
