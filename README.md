@@ -19,3 +19,8 @@ Foi realizado a deduplicação e o tratamento de valores nulos, preparando a bas
 Nesta camada final, os dados limpos foram transformados em resumos agregados focados em responder a perguntas de negócio. Criamos duas tabelas principais para consumo em dashboards:
 - **Custo Médio por Gravidade:** Análise do impacto financeiro dos sinistros.
 - **Atividades Suspeitas:** Mapeamento de possíveis fraudes baseadas no tipo de colisão.
+
+## Etapa 4: Automação (Databricks Workflows)
+Todo o pipeline de dados (Bronze, Silver e Gold) foi automatizado utilizando o Databricks Workflows (Jobs), garantindo a execução sequencial das etapas de ingestão, limpeza e métricas de negócio.
+
+Com isso, chegamos ao fim da implementação completa de um Data Warehouse.
