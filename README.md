@@ -20,7 +20,7 @@ Nesta camada final, os dados limpos foram transformados em resumos agregados foc
 - **Custo Médio por Gravidade:** Análise do impacto financeiro dos sinistros.
 - **Atividades Suspeitas:** Mapeamento de possíveis fraudes baseadas no tipo de colisão.
 
-## Etapa 4: Automação (Databricks Workflows)
+### Etapa 4: Automação (Databricks Workflows)
 Todo o pipeline de dados (Bronze, Silver e Gold) foi automatizado utilizando o Databricks Workflows (Jobs), garantindo a execução sequencial das etapas de ingestão, limpeza e métricas de negócio.
 
 Com isso, chegamos ao fim da implementação completa de um Data Warehouse.
