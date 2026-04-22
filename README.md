@@ -16,4 +16,6 @@ Foi realizado a deduplicação e o tratamento de valores nulos, preparando a bas
 
 ### Etapa 3: Agregação Gold (Negócios)
 
-Nesta camada final, os dados limpos foram transformados em resumos agregados e métricas focadas em responder a perguntas de negócio. Esta tabela resultante é otimizada para alimentar diretamente relatórios, dashboards e tomadores de decisão.
+Nesta camada final, os dados limpos foram transformados em resumos agregados focados em responder a perguntas de negócio. Criamos duas tabelas principais para consumo em dashboards:
+- **Custo Médio por Gravidade:** Análise do impacto financeiro dos sinistros.
+- **Atividades Suspeitas:** Mapeamento de possíveis fraudes baseadas no tipo de colisão.
