@@ -14,5 +14,6 @@ A hierarquia criada foi:
 Nesta etapa, os dados brutos da camada Bronze foram limpos e validados. 
 Foi realizado a deduplicação e o tratamento de valores nulos, preparando a base para análises mais confiáveis.
 
-### Etapa 3: 
-Em construção...
+### Etapa 3: Agregação Gold (Negócios)
+
+Nesta camada final, os dados limpos foram transformados em resumos agregados e métricas focadas em responder a perguntas de negócio. Esta tabela resultante é otimizada para alimentar diretamente relatórios, dashboards e tomadores de decisão.
